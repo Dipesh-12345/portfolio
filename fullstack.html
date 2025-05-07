@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="full.css">
+    <title>fullstack</title>
+</head>
+<body>
+    <h1 class="coc">About Fullstack Development</h1>
+    <h2>What is full Stack Development?</h2>
+    <p class="all">Full Stack Development refers to the development of both the front-end (client side) and back-end (server side) portions of a web application. <br>
+    A full-stack developer is skilled in creating a complete web application or software solution, from its visual interface to its functional logic and data storage.</p>
+    
+    <div class="full">
+        <h2>Front-end Development:</h2>
+    
+        <p>The frontend is the part of the application that users directly interact with. It includes the user interface, visual elements, and interactive components.</p>
+        <ul class="p">
+            <li><strong>Languages:</strong> HTML, CSS, and JavaScript.</li>
+            <li><strong>Frameworks/Libraries:</strong> Bootstrap, React, Angular,and jQuery.</li>
+           </ul> 
+           <ul class="p">
+            <li><strong>Responsibilities:</strong></li>
+
+                    <li>Creating the user interface and layout.</li>
+                    <li>Handling user interactions and events.</li>
+                    <li>Making asynchronous requests to the backend.</li>
+                    <li>Ensuring responsiveness and cross-browser compatibility.</li>
+                </ul>
+              </div>
+                <div class="soon">
+                <h2 class="h4">Front-end example:</h2>
+                <p> Here a simple example of front-end using HTML, CSS and JavaScript:</p>
+                <pre><code>
+                  &lt;!DOCTYPE html&gt;
+                  &lt;html lang="en"&gt;
+                  &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Login Form&lt;/title&gt;
+                    &lt;style&gt;
+                      body {
+                        font-family: Arial, sans-serif;
+                        max-width: 300px;
+                        margin: 50px auto;
+                      }
+                     
+                    &lt;/style&gt;
+                  &lt;/head&gt;
+                  &lt;body&gt;
+                  &lt; h2&gt;Conditional opeator example &lt;/h2&gt;
+                   &lt;script&gt;
+                   var a=2;
+                   var b=4;
+                   large=(a>b)?a:b;
+                   document.write("the larger number is:"+large);
+                    &lt;/script&gt;
+                  &lt;/body&gt;
+                  &lt;/html&gt;
+                  </code></pre>
+                </div>
+        <div class="full">
+        <h2>Back-end Development:</h2>
+        <p>Back-end development is the process of building and maintaining the server-side logic, databases, and application programming interfaces (APIs) of a web application or software</p>
+        <ul class="p">
+            <li><strong>Languages:</strong> Node.js, Python, Java, Ruby, PHP, and C#.</li>
+            <li><strong>Frameworks:</strong> Express.js, Django, Spring, Ruby on Rails, and Laravel.</li>
+            <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, and cloud-based solutions.</li>
+            <li><strong>Responsibilities:</strong></li>
+            </ul>
+              
+                <ul class="p">
+                    <li>Implementing server-side logic and APIs.</li>
+                    <li>Managing data storage and retrieval.</li>
+                    <li>Handling user authentication and authorization.</li>
+                    <li>Ensuring security and performance.</li>
+                </ul>
+          </div>
+         <div class="soon">
+        <h2 class="h4">Back-end example:</h2>
+       <p> Here a example of Back-end using Node.js :</p>
+      <pre><code>const express = require('express');
+        const app = express();
+        const PORT = 3000;
+        
+        // Middleware to parse JSON body
+        app.use(express.json());
+        
+        // Hardcoded user for demo
+        const user = {
+          username: "admin",
+          password: "1234"
+        };
+        
+        // Login endpoint
+        app.post('/login', (req, res) => {
+          const { username, password } = req.body;
+        
+          if (username === user.username &amp;&amp; password === user.password) {
+            res.status(200).json({ message: "Login successful!" });
+          } else {
+            res.status(401).json({ message: "Invalid username or password." });
+          }
+        });
+        
+        // Start the server
+        app.listen(PORT, () => {
+          console.log(`Server running on http://localhost:${PORT}`);
+        });
+        </code></pre>
+        </div>
+        
+
+</body>
+</html>
+    
+    
+   

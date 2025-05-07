@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: black;
+  max-width: 1200px;
+  margin: 0 px;
+  padding: 0px;
+  background-color: #f5f7fa;
+}
+.coc{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 5px;
+  margin-bottom:2.5rem;
+  line-height: 3.2;
+  padding: 5px;
+  border-bottom: 4px solid skyblue;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  border-radius: 8px;
+}
+.bob{
+  border-radius: 8px;
+  box-shadow: 0 4px 6px 5px rgba(0,0,0,0.2);
+  padding: 2rem;
+  margin:20px ;
+  margin-top: 5px;
+}
+.all {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #2c3e50;
+  padding: 12px;
+  background-color: whitesmoke;
+  
+}
+h3.fix {
+  margin: 0;
+  color: black;
+  font-size: 24px;
+}
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.Front{
+  box-shadow: 5px 5px 5px 5px;
+  color: grey;
+  margin-left: 2px;
+  border-color: grey;
+ width : 800px;
+ margin-bottom:30px;
+
+
+
+}
+.h4{
+  font-size: 20px;
+    margin-bottom: 3px;
+    color: Black;
+    margin-left:9px;
+}
+pre code {
+  border-left: 10px;
+  background-color: black;
+  color: gray;
+  padding: 10px;
+  display: block;
+  border-radius: 8px;
+  width: auto;
+  margin-right: 9px;
+  margin-left: 9px;
+  margin-bottom:8px;
+  
+  
+}
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
